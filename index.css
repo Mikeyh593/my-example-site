@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/313a5fcd5a481448ac4ea213da8b54df.png");
+    background-repeat: round;
+}
+
+h1{
+    color: red;
+}
+
+.photos img{
+    width: 100%;
+    height: 600px;
+    border: solid rgb(38, 142, 184) 15px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
